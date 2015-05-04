@@ -1,0 +1,30 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+* { cursor: none; }
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+.default-bg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  background-image: url(../images/CodePen-Black-Large.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pen-frame {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}

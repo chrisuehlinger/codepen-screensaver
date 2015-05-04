@@ -9,14 +9,22 @@
     "always-on-top": true,
     "show_in_taskbar": false
   },
-  "maintainers":[ {
-    "name": "Marco Krage",
-    "email": "marco@my-azur.de",
-    "web": "http://my-azur.de"
-  }],
+  "maintainers": [
+    {
+      "name": "Marco Krage",
+      "email": "marco@my-azur.de",
+      "web": "http://my-azur.de"
+    }
+  ],
   "licenses": [
-   {
-       "type": "MIT",
-       "url": "http://marco.mit-license.org"
-   }]
+    {
+      "type": "MIT",
+      "url": "http://marco.mit-license.org"
+    }
+  ],
+  "dependencies": {
+    "prettyjson": "^1.1.0",
+    "request": "^2.55.0",
+    "xml2js": "^0.4.8"
+  }
 }
